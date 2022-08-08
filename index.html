@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Generator</title>
+    <script src="main.js" defer></script>
+    <script src="data.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>50 Random Users</h1>
+    <form id="form">
+            <div id="first">
+                <label for="fn">First Name: </label>
+                <input id="fn_value" name="fn" type="text"/>
+            </div>
+            
+            <div id="last">
+                <label for="ln">Last Name: </label>
+                <input id="ln_value" name="ln" type="text"/>
+            </div>
+
+            <div id="gender">          
+                <label for="gen">Gender: </label>
+                <select id="gen_value" name="gen">
+                    <option value="">None</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>  
+
+            <button type="submit">Submit</button>
+        </form>
+    
+</body>
+</html>
